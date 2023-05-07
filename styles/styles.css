@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #db1facbb;
+    border-style: double;
+    margin-top: 0%;
+    text-align: center;
+    border-color: #0d0d0e;
+    
+}
+
+    h2{
+        text-decoration:underline;
+    }
+
+.animated-button {
+    background-color: #db1facbb; 
+    color: rgb(7, 7, 7); 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    position: relative; 
+  }
+  
+  .animated-button:hover:after {
+    content: ""; 
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+    background: rgb(160, 41, 154); 
+    opacity: 0; 
+    transition: all 0.5s ease-out; 
+    border-radius: 10px; 
+  }
+  
+  .animated-button:hover:before {
+    content: ""; 
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+    background: #080808; 
+    opacity: 0.7; 
+    transition: all 0.5s ease-out; 
+    border-radius: 10px; 
+  }
+  
+  .animated-button:hover:after {
+    opacity: 1; 
+  }
+
+.segundo{
+    background-color: #ca32c3c2;
+    font-family: cursive;
+    
+}
+
+
+table th:hover{
+        background-color: rgba(153, 0, 255, 0.795);
+        color: rgb(8, 8, 8);
+}
+    
+.table tr:hover{
+    background-color: rgba(204, 0, 255, 0.808);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.fondo{
+    width: 400px;
+    margin-left: 60%;
+    height: 400px;
+}
+
+.colorr{
+    background-color: #b1357d36;
+}
